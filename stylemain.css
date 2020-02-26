@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.right-menu li{
+	display: inline-block;
+	margin-top: 14px
+}
+.right-menu .fa{
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+.navbar-brand img{
+	width: 150px;
+	height: 74px;
+}
+.navbar-brand{
+	left: 50%;
+	top: 0px;
+	transform: translate(-50%);
+	position: absolute;
+}
+.nav-link {
+	transition: .4s;
+}
+.header{
+	background: lightgrey;
+
+}
+.navbar{
+	padding: 0 30px;
+}
+.navbar-toggler{
+	border: none;
+	outline: none;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.navbar-toggler .fa{
+	font-size: 40px;
+	cursor: pointer;
+	color: black;
+}
+.banner-img{
+	margin: 80px 100px;
+	width: 50%;
+	padding-bottom: 20px;
+
+}
+.banner-img img{
+	margin-bottom:-100px;
+	margin-left: -40px;
+	height: 100%;
+	width: 100%; 
+}
+.banner{
+	position: relative;
+}
+.banner-title{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+.banner-title h1{
+	font-size: 60px;
+	background: black;
+	color: white;
+	line-height: 70px;
+	padding: 0 10px 0 10px;
+	margin-left: 100px;
+	padding-bottom: 6px !important;
+}
+.banner-title p{
+	font-size: 16px;
+	margin-left: 100px;
+}
+.music-trends{
+	padding:  0;
+}
+.music-box{
+	margin: 80px 0;
+}
+.music-box h1{
+	text-align: center;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-top: -10px;
+}
+.title-style{
+	margin: 0 auto 60px;
+	height: 80px;
+	width: 50%;
+	max-width: 700px;
+	background: white;
+	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,50);
+}
+.navbar-nav li{
+	padding-right: 10px;
+	font-size: 20px;
+}
+.fossils-img{
+	position: relative;
+	margin-bottom: 14px;
+}
+.fossils-img img{
+	width: 100%;
+}
+.btn-play{
+	width: 150px;
+	padding: 10px 0;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 2px;
+	position: absolute;
+	background: white;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%,0);
+	transition: .6s;
+	opacity: 0;
+	z-index: 1;
+}
+.fossils-img:hover .btn-play
+{
+	transform: translate(-50%,40%);
+	bottom: 50%;
+	opacity: 100;
+}
+.overlay{
+	height: 0;
+	width: 100%;
+	background: grey;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: .4s;
+
+}
+.fossils-img:hover .overlay
+{
+  opacity: .7;
+  height: 100%;
+
+} 
+.music-box p{
+	font-size: 16px;
+	text-align: center;
+}
+.best{
+	margin-top: 40px;
+	padding-top: 60px;
+	background-image: url(best.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.row{
+	margin: initial;
+}
+.subscribe{
+	max-width: 900px;
+	margin-top: 20px;
+	padding: 40px;
+	background: #ffffff8c;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,70);
+
+}
+.subscribe a{
+	width: 100px;
+	display: block;
+	color: white;
+	background: black;
+	text-decoration: none;
+	padding: 5px;
+	text-align: center;
+
+}
+.best img{
+	width: 440px;
+	height: 500px;
+	border: 1px solid black;
+	margin-bottom: -70px;
+	margin-top: 110px;
+	margin-left: 110px
+}
+.other{
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+} 
+.another-ones{
+	margin: 160px 0 120px 0;
+}
+.oth-detail p{
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+.new-bands{
+	margin-bottom: 150px;
+}
+.band-logo{
+	width: 200px;
+	height: 200px;
+	background:white;
+	border-radius: 50%;
+	margin: 50px auto 30px;
+	box-shadow: 0 2px 40px 0 rgba(110,130,208,18);
+	border: 1px solid black; 
+}
+.band-logo img{
+	width: 100px;
+	margin: 50px auto;
+
+}
+.solo-stars{
+	background: lightgrey;
+	padding-top: -40px;
+	border-radius: 140px;
+
+
+}
+.other h1{
+	margin-top: -90px;
+}
+.card{
+	margin-top: 0px;
+}
+.card img{
+	height: 100%;
+	width: 100%;
+}
+.maker{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	padding-top: 60px;
+	font-size: 46px;
+}
+.fossils-img a{
+	text-decoration: none;
+	color: black;
+}
+
+
